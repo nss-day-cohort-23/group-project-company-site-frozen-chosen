@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+/*-----------header navigation------------*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li{
+    padding: 0 1.5em;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: lightblue;
+    /* opacity: .3; */
+}
+
+.frozen-img {
+    width: 100%;
+    height: 26em;
+}
+
+
+
+/* ----------------footer------------------ */
+footer{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
