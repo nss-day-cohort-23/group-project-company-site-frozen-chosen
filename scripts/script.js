@@ -15,7 +15,7 @@ function product(name, description, price, imageurl) {
     this.name = name;
     this.description = description;
     this.price = price;
-    this.imageurl = imageurl;
+    //this.imageurl = imageurl;
 }
 
 //create a function to add new products to the array
