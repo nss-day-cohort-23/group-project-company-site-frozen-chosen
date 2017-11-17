@@ -35,3 +35,499 @@ a {
 footer{
     font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------Contact Page------------------------------------------- */
+input[type=reset]:hover {
+    cursor:pointer;
+    background-color: steelblue;
+  }
+
+.contact {
+      display: flex;
+      margin: 0 3em;
+      padding: 0 5em;
+      font-family: 'Open Sans', sans-serif;
+  }
+  
+.input {
+      flex: 1;
+  }
+
+.social .fb img {
+      width: 6.22em;
+      height: 6.22em;
+      display: block;
+      margin: auto;
+      border-radius: 9%;
+  }
+.social .fb {
+    margin-bottom: 2.3em;
+  }
+
+.social .tw img {
+    width: 6.8em;
+    height: 6.8em;
+    display: block;
+    margin: auto;
+  }
+
+.social .tw {
+    margin-bottom: 2.5em;
+}
+
+.subtext {
+    text-align: center;
+    margin-top: .1em;
+    font-size: 0.9em;
+}
+
+
+.email h3{
+    text-align: center;
+    margin-bottom: -.5em;
+}
+
+.social {
+    margin-top: 3em;
+}
+
+.email span {
+    padding-left: 3.3em;
+}
+
+.imput-bar {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    outline: 0;
+    width: 80%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
