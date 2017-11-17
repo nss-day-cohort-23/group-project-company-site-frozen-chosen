@@ -7,9 +7,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Open Sans', sans-serif;
-}
-
+    font-family: 'Fira Sans Extra Condensed','Open Sans', sans-serif;
+    font-size: 1em;
 nav ul {
     display: flex;
 }
@@ -24,10 +23,69 @@ a {
     /* opacity: .3; */
 }
 
-.frozen-img {
+/*----.frozen-img {
     width: 100%;
     height: 26em;
+    position:relative; -----*//
 }
+#mimg{
+    background: url("../images/MainPage.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+#mimg::after{
+    display:block;
+    position:relative;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+    margin-top: -75px;
+    height: 75px;
+    width: 100%;
+    content: '';
+}
+
+#mimg p, #mimg h2{
+    text-align: center;
+    left:10%;
+    color:white;
+    text-shadow: 1px 1.3px rgba(0,0,0,.2);
+}
+
+#mimg h2{
+    font-size:5.2em;
+}
+
+#mimg p{
+    font-size:1.4em;
+    padding: 0px 5.1em;
+}
+
+#mimg{
+    width:100%;
+}
+
+/*-------------------
+.flex-container {
+    background-color: rgb(51, 51,51);
+    color: white;
+    display: flex;
+    padding: 10em;
+  }
+
+.flex-left{
+    display:flex;
+    flex-direction: column; 
+    flex: 0 50%;
+}
+
+.flex-right{
+    display:flex;
+    flex-direction: column; 
+    flex: 50% 0;
+}-----------*/
+
 
 
 
