@@ -1,14 +1,27 @@
 body {
     margin: 0;
+    /* background-color: ; */
 }
 
 /*-----------header navigation------------*/
 header{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    background: white;
+    width: 100%;
+    box-shadow: 0 6px 6px -8px;
+}
+
     font-family: 'Fira Sans Extra Condensed','Open Sans', sans-serif;
     font-size: 1em;
+
 nav ul {
     display: flex;
 }
@@ -335,6 +348,79 @@ footer{
 
 
 
+/* ----------------About pg----------------------------- */
+main {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    /* text-align: center; */
+}
+.main-img {
+    margin-top: 73px;
+    height: 26em;
+}
+.about-wrapper {
+    text-align: center;
+}
+.about-wrapper h2{
+    font-size: 2.5em;
+    text-shadow: 5px 0px 11px #fff, 5px 2px 7px rgba(0,0,0,0.15);
+}
+
+.aboutCompany{
+    width: 45%;
+    margin: auto;
+    font-size: 1.35em;
+    color: rgba(0,0,0,.7);
+}
+.aboutCompany p {
+    text-align: justify;
+}
+
+#marg {
+    background: url("../images/about-marg.jpg") no-repeat center center fixed;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+#marg::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  margin-top: -250px;
+  height: 250px;
+  width: 100%;
+  content: '';
+}
+#marg p, #marg h2{
+   /* position: absolute; */
+    text-align: center;
+    /* width: 80%; */
+    left: 10%;
+    color: white;
+    text-shadow: 1px 1.3px rgba(0,0,0,.2);
+}
+#marg h2{
+    font-size: 5.2em;
+    /* padding-top: 1em; */
+}
+#marg p{
+    /* margin-top: 210px; */
+    font-size: 1.4em;
+    padding: 0px 5.1em;
+}
+#marg img{
+    width: 100%;
+    /* position: relative; */
+}
+#marg h4{
+    margin-top: auto;
+    opacity: .79;
+    font-size: 1.6em;
+
+
 
 
 
@@ -527,7 +613,10 @@ input[type=reset]:hover {
     padding: 15px 20px;
     margin-bottom: 20px;
     font-size: 16px;
+
 }
+
+
 
 
 
@@ -641,6 +730,7 @@ input[type=reset]:hover {
     margin: 2em auto;
     border-radius: 0.7em 0.2em 0.7em 0.2em;
 }
+
 
 
 
