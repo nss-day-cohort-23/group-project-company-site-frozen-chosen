@@ -11,11 +11,11 @@ var price = $(".price p");
 var imgurl = $(".image").attr("src");
 
 //create a constructor functions to add new products
-function product(name, description, price, imageurl) {
+function product(name, description, price, url) {
     this.name = name;
     this.description = description;
     this.price = price;
-    //this.imageurl = imageurl;
+    this.url = imageurl;
 }
 
 //create a function to add new products to the array
@@ -34,6 +34,7 @@ function printProducts(){
         productName.text(products[i].name);
         productDescription.text(products[i].description);
         price.text(products[i].price);
+        img.text(products[i].url);   
     }
 
 }
@@ -49,10 +50,6 @@ products[6] = new product("Frozen Margarita 6", "Description", "9.99", "url");
 products[7] = new product("Frozen Margarita 7", "Description", "9.99", "url");
 products[8] = new product("Frozen Margarita 8", "Description", "9.99", "url");
 products[9] = new product("Frozen Margarita 9", "Description", "9.99", "url"); 
-//]
-
-// add objects to array (can we turn this into a function??)
-
 
 printProducts();
 
