@@ -1,12 +1,12 @@
 body {
     margin: 0;
+    /* background-color: ; */
 }
 
 /*-----------header navigation------------*/
 header{
     font-family: 'Open Sans', sans-serif;
 }
-
 nav{
     display: flex;
     align-items: center;
@@ -16,11 +16,8 @@ nav{
     background: white;
     width: 100%;
     box-shadow: 0 6px 6px -8px;
+    font-size: 1em;
 }
-
-    /*font-family: 'Fira Sans Extra Condensed','Open Sans', sans-serif;
-    font-size: 1em;*/
-
 nav ul {
     display: flex;
 }
@@ -29,19 +26,16 @@ nav ul li{
     padding: 0 1.5em;
     list-style-type: none;
 }
-
 a {
     text-decoration: none;
     color: lightblue;
     /* opacity: .3; */
 }
 
-/*----.frozen-img {
+/* .frozen-img {
     width: 100%;
     height: 26em;
-
-    position:relative; 
-}-----*/
+} */
 
 #mimg{
     background: url("../images/MainPage.jpg") no-repeat center center fixed;
@@ -70,7 +64,9 @@ a {
 
 #mimg h2{
     font-size:5.2em;
+
     padding: 0;
+
 }
 
 #mimg p{
@@ -81,7 +77,6 @@ a {
 #mimg{
     width:100%;
 }
-
 
 /* ----------------footer------------------ */
 footer{
@@ -97,7 +92,6 @@ main {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     /* text-align: center; */
 }
-
 .main-img {
     margin-top: 73px;
     height: 26em;
@@ -116,7 +110,7 @@ main {
     font-size: 1.35em;
     color: rgba(0,0,0,.7);
 }
-.aboutCompany p{
+.aboutCompany p {
     text-align: justify;
 }
 
@@ -163,6 +157,8 @@ main {
     opacity: .79;
     font-size: 1.6em;
 }
+
+
 
 /* ---------------------------------------Contact Page------------------------------------------- */
 input[type=reset]:hover {
@@ -285,8 +281,3 @@ input[type=reset]:hover {
     margin: 2em auto;
     border-radius: 0.7em 0.2em 0.7em 0.2em;
 }
-
-
-
-
-
