@@ -160,30 +160,37 @@ main {
 
 
 
-/* ---------------------------------------Contact Page------------------------------------------- */
+/* ---------------------------------------Contact Page ----Val------------------------------------------- */
+
+.background {
+    background-color: lightgray;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+}
+
 input[type=reset]:hover {
-    cursor:pointer;
+    cursor: pointer;
     background-color: steelblue;
   }
 
 .contact {
-      display: flex;
-      margin: 0 3em;
-      padding: 0 5em;
-      font-family: 'Open Sans', sans-serif;
+    display: flex;
+    margin: 0 3em;
+    padding: 0 5em;
+    font-family: 'Open Sans', sans-serif;
   }
   
 .input {
-      flex: 1;
+    flex: 1;
   }
 
-.social .fb img {
-      width: 6.22em;
-      height: 6.22em;
-      display: block;
-      margin: auto;
-      border-radius: 9%;
+.social .fb img { 
+    width: 6.22em;
+    height: 6.22em;
+    display: block;
+    margin: auto;
+    border-radius: 9%;
   }
+
 .social .fb {
     margin-bottom: 2.3em;
   }
@@ -216,18 +223,27 @@ input[type=reset]:hover {
 }
 
 .email span {
-    padding-left: 3.3em;
+    padding-left: 4.4em;
 }
 
 .imput-bar {
-    border: 1px solid #e5e5e5;
-    border-radius: 5px;
+    border-style: none;
+    border-radius: .5em;
     outline: 0;
     width: 80%;
-    padding: 15px 20px;
-    margin-bottom: 20px;
-    font-size: 16px;
+    padding: 1em 1.1em;
+    margin-bottom: 1.2em;
+    font-size: 1em;
+}
 
+.button {
+    text-transform: uppercase;
+    background-color: lightblue;
+    color: white;
+    padding: .7em 2em;
+    font-size: larger;
+    letter-spacing: .1em;
+    box-shadow: 0.1em 0.1em 5px gainsboro;
 }
 
 
