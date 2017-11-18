@@ -163,7 +163,7 @@ main {
 /* ---------------------------------------Contact Page ----Val------------------------------------------- */
 
 .background {
-    background-color: lightgray;
+    background-color: #e6e6e6;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
 }
 
@@ -196,10 +196,11 @@ input[type=reset]:hover {
   }
 
 .social .tw img {
-    width: 6.8em;
-    height: 6.8em;
+    width: 6.5em;
+    height: 6.5em;
     display: block;
     margin: auto;
+    border-radius: 10px;
   }
 
 .social .tw {
@@ -227,13 +228,14 @@ input[type=reset]:hover {
 }
 
 .imput-bar {
-    border-style: none;
+    border: 1px solid #dadada;
     border-radius: .5em;
     outline: 0;
     width: 80%;
     padding: 1em 1.1em;
     margin-bottom: 1.2em;
     font-size: 1em;
+    box-shadow: 0.1em 0.1em 5px gainsboro;
 }
 
 .button {
@@ -246,6 +248,18 @@ input[type=reset]:hover {
     box-shadow: 0.1em 0.1em 5px gainsboro;
 }
 
+h1.standout {
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.social .fb img:hover {
+    box-shadow: 0 0 3px 2px rgba(102, 102, 102, 0.5);
+}
+
+.social .tw img:hover {
+    box-shadow: 0 0 3px 2px rgba(102, 102, 102, 0.5);
+}
 
 
 /*----------------------- PRODUCTS PAGE - JORDAN ------------------------------*/
