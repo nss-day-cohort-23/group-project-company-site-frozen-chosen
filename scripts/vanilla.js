@@ -65,15 +65,31 @@
                 "There are two styles of daiquiris: frozen and shaken. This mix is for the frozen version of the basic and original lime Daiquiri. It is simple, delicious, and a fantastic way to cool down on a hot summer day.", 
                 "8.99", 
                 "images/frozen-daiquiri.jpg");
+
     products[5] = new product(
                 "Frozen Pina Colada", 
                 "This updated version of a classic summer cocktail includes coconut ice cream and frozen pineapple chunks.", 
                 "9.99", 
                 "images/frozen-pina-colada.jpeg");
-    products[6] = new product("Frozen Mangorita", "Description", "9.99", "url");
-    products[7] = new product("Frozen Chi Chi", "Description", "9.99", "url");
-    products[8] = new product("Frozen Bushwhacker", "Description", "9.99", "url");
-    products[9] = new product("Frozen Margarita 9", "Description", "9.99", "url");
+
+    products[6] = new product(
+                "Frozen Mangorita", 
+                "if you’re looking for a fun cocktail these Mango Margaritas taste like heaven in a glass. They’re sweet, salty, creamy, and refreshing. But more importantly it gives you the good feels.", 
+                "9.99", 
+                "images/mangorita.jpeg");
+
+    products[7] = new product(
+                "Frozen Chi Chi", 
+                "Though many ‘50s cocktails have made it back into circulation, a few have been unjustly forgotten. Take the chi-chi: A cousin to the pina colada that swaps out the rum for vodka. It’s perfect for those who love that pineapple and coconut combination, but not necessarily the sugar rush that comes along.", 
+                "9.99", 
+                "images/frozen-chi-chi");
+
+    products[8] = new product(
+            "Frozen Bushwacker", 
+            "The Bushwacker is a fun, indulgent smoothie that is a lot like a chocolate-flavored Pina Colada without the pineapple.", 
+            "9.99", 
+            "images/bushwacker.jpg");
+   
     
     
     
