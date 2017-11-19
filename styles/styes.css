@@ -37,24 +37,10 @@ a {
     /* opacity: .3; */
 }
 
-/*----.frozen-img {
-    width: 100%;
-    height: 26em;
-
-    position:relative; 
-}-----*/
-
-home{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1em;
-    background-color: rgba(192, 192, 192, 0.5)
-}
-
 #mimg{
-    background: url("../images/home.jpg") no-repeat center center fixed;
+    background: url("../images/MainPage.jpg") no-repeat center center fixed;
     background-size: cover;
-    height: 550px;
+    height: 200px;
     display: flex;
     flex-direction: column;
 }
@@ -63,31 +49,23 @@ home{
     display:block;
     position:relative;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-    margin-top: -50px;
-    height: 50px;
+    margin-top: 100px;
+    height: 200px;
     width: 100%;
     content: '';
 }
 
-/*#mimg p, #mimg h2{
+#mimg >text{
+    padding-top: 50px;
+}
+
+#mimg h2{
     text-align: center;
     left:10%;
     color:white;
     text-shadow: 1px 1.3px rgba(0,0,0,.2);
-}
-
-#mimg h2{
     font-size:5.2em;
-    padding: 0;
-}
-
-#mimg p{
-    font-size:1.4em;
     padding: 0px 5.1em;
-}*/
-
-#mimg{
-    width:100%;
 }
 
 
