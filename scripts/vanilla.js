@@ -38,55 +38,55 @@
 
     products[0] = new product(
                 "Frozen Margarita", 
-                "Margaritas are synonymous with Mexican food and, of course, Cinco de Mayo! Jack’s Ultimate Frozen Margaritas are a luscious frozen cocktail that will make you want to shout olé!", 
+                "A luscious frozen cocktail that will make you want to shout olé!",
                 "7.99", 
                 "images/frozen-marg.jpg");
 
     products[1] = new product(
                 "Frozen Hot Chocolate", 
-                "This frozen hot chocolate with whipped cream, chocolate sauce and chocolate curls is the stuff hot summer days are made for!", 
+                "Top with whipped cream and chocolate sauce for a dreamy drink!", 
                 "8.99", 
                 "images/frozen-hot-chocolate.jpg");
 
     products[2] = new product(
                  "Frozen Sangria", 
-                 "This Frozen Sangria Slush is just five ingredients, comes together in the blender, and will be the hit of the party! Make a double batch!", 
+                 "With just five ingredients, this is a surefire hit!", 
                  "7.99", 
                  "images/frozen-sangria.jpg");
 
     products[3] = new product(
                 "Frozen Lemonade", 
-                "On a hot day, it's hard to beat a tall glass of slushy frozen lemonade! Cool down with this easy drink at your next picnic.", 
+                "Cool down with this easy drink at your next picnic!", 
                 "7.99", 
                 "images/frozen-lemonade.jpeg");
 
     products[4] = new product(
                 "Frozen Daiquiri", 
-                "There are two styles of daiquiris: frozen and shaken. This mix is for the frozen version of the basic and original lime Daiquiri. It is simple, delicious, and a fantastic way to cool down on a hot summer day.", 
+                "A simple and delicious way to cool down on a hot day!",
                 "8.99", 
                 "images/frozen-daiquiri.jpg");
 
     products[5] = new product(
                 "Frozen Pina Colada", 
-                "This updated version of a classic summer cocktail includes coconut ice cream and frozen pineapple chunks.", 
+                "An updated version of a classic summer cocktail", 
                 "9.99", 
                 "images/frozen-pina-colada.jpeg");
 
     products[6] = new product(
                 "Frozen Mangorita", 
-                "if you’re looking for a fun cocktail these Mango Margaritas taste like heaven in a glass. They’re sweet, salty, creamy, and refreshing. But more importantly it gives you the good feels.", 
+                "Sweet, salty, creamy, and refreshing! Make a double batch!", 
                 "9.99", 
                 "images/mangorita.jpeg");
 
     products[7] = new product(
                 "Frozen Chi Chi", 
-                "Though many ‘50s cocktails have made it back into circulation, a few have been unjustly forgotten. Take the chi-chi: A cousin to the pina colada that swaps out the rum for vodka. It’s perfect for those who love that pineapple and coconut combination, but not necessarily the sugar rush that comes along.", 
+                "A cousin to the pina colada that swaps out the rum for vodka.", 
                 "9.99", 
                 "images/frozen-chi-chi");
 
     products[8] = new product(
             "Frozen Bushwacker", 
-            "The Bushwacker is a fun, indulgent smoothie that is a lot like a chocolate-flavored Pina Colada without the pineapple.", 
+            "Like a chocolate-flavored Pina Colada without the pineapple!", 
             "9.99", 
             "images/bushwacker.jpg");
    
