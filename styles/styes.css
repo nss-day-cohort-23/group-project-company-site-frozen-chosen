@@ -31,11 +31,10 @@ nav ul li{
     list-style-type: none;
 }
 
-a {
+a{
     text-decoration: none;
     color: lightblue;
-    /* opacity: .3; */
-}
+    /* opacity: .3;*/
 
 #mimg{
     background: url("../images/MainPage.jpg") no-repeat center center fixed;

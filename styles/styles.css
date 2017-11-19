@@ -32,6 +32,9 @@ a {
     /* opacity: .3; */
 }
 
+a:hover {
+    color:grey;
+}
 /* .frozen-img {
     width: 100%;
     height: 26em;
@@ -64,7 +67,6 @@ a {
 
 #mimg h2{
     font-size:5.2em;
-
     padding: 0;
 
 }
@@ -77,6 +79,50 @@ a {
 #mimg{
     width:100%;
 }
+
+.welcome-wrapper{
+    text-align:center;
+}
+
+.welcome-wrapper h2{
+    font-size: 2.5em;
+    text-shadow: 5px 0px 11px #fff, 5px 2px 7px rgba(0,0,0,0.15);
+}
+
+.welcome{
+    width: 45%;
+    margin: auto;
+    font-size: 1.35em;
+    color: rgba(0,0,0,.7);
+}
+.welcome p {
+    text-align: center;
+}
+
+#logistics {
+    background: url("../images/Logistics.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+#logistics::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+    margin-top: -250px;
+    height: 250px;
+    width: 100%;
+    content: '';
+  }
+  #logistics p, #logistics h2{
+      text-align: center;
+      /*left: 10%;*/
+      color: white;
+      text-shadow: 1px 1.3px rgba(0,0,0,.2);
+  }
+
 
 /* ----------------footer------------------ */
 footer{
