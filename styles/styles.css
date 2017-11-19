@@ -215,8 +215,9 @@ main {
 
 input[type=reset]:hover {
     cursor: pointer;
-    background-color: rgb(126, 164, 175);
-  }
+    background-color: rgb(160, 198, 209);
+    transition: ease-in;
+}
 
 .contact {
     display: flex;
