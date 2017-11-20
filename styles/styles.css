@@ -362,6 +362,7 @@ h1.standout {
     flex-wrap: wrap;
     padding: 1em;
     background-color: rgba(192, 192, 192, 0.5);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
 }
 
 .product{
