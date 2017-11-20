@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    /* background-color: ; */
+    padding-top: 72px;
 }
 
 /*-----------header navigation------------*/
@@ -17,6 +17,11 @@ nav{
     width: 100%;
     box-shadow: 0 6px 6px -8px;
     font-size: 1em;
+    height: 4.5em;
+}
+nav img {
+    margin-top: 39px;
+    height: 122px;
 }
 nav ul {
     display: flex;
@@ -33,27 +38,25 @@ a {
 }
 
 a:hover {
-    color:grey;
+    opacity: .6;
 }
-/* .frozen-img {
-    width: 100%;
-    height: 26em;
-} */
 
+
+/* ----------- main site img ------------ */
 #mimg{
     background: url("../images/MainPage.jpg") no-repeat center center fixed;
     background-size: cover;
-    height: 550px;
+    height: 478px;
     display: flex;
     flex-direction: column;
 }
 
 #mimg::after{
-    display:block;
-    position:relative;
+    /* display:block; */
+    /* position:relative; */
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-    margin-top: -75px;
-    height: 75px;
+    margin-top: auto;
+    height: 4px;
     width: 100%;
     content: '';
 }
@@ -79,7 +82,12 @@ a:hover {
 #mimg{
     width:100%;
 }
+#mimg img {
+    height: 205px;
+    margin-top: auto;
+}
 
+/*----------- home pg content -----------*/
 .welcome-wrapper{
     text-align:center;
 }
@@ -127,6 +135,12 @@ a:hover {
 /* ----------------footer------------------ */
 footer{
     font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-align: center;
+}
+footer h4{
+    margin-top: auto;
+    opacity: .15;
+    font-size: 1.5em;
 }
 
 
@@ -148,23 +162,33 @@ main {
 .about-wrapper h2{
     font-size: 2.5em;
     text-shadow: 5px 0px 11px #fff, 5px 2px 7px rgba(0,0,0,0.15);
+    margin-top: 0;
+    padding-top: .8em;
+    margin-bottom: 36px;
 }
 
 .aboutCompany{
-    width: 45%;
-    margin: auto;
+    width: 42%;
+    max-width: 24em;
+    margin: 3.1em auto;
     font-size: 1.35em;
     color: rgba(0,0,0,.7);
+    border: 14px solid;
+    padding: 0px 25px;
 }
 .aboutCompany p {
     text-align: justify;
 }
+.aboutCompany p:first-of-type{
+    text-align: center;
+}
 
+/*------------ About page bottom image ---------------*/
 #marg {
     background: url("../images/about-marg.jpg") no-repeat center center fixed;
     /* background-size: 100% 100%; */
     background-size: cover;
-    height: 650px;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -172,36 +196,35 @@ main {
   display: block;
   position: relative;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-  margin-top: -250px;
-  height: 250px;
+  margin-top: auto;
+  height: 8.4em;
   width: 100%;
   content: '';
 }
 #marg p, #marg h2{
-   /* position: absolute; */
-    text-align: center;
-    /* width: 80%; */
-    left: 10%;
     color: white;
     text-shadow: 1px 1.3px rgba(0,0,0,.2);
 }
 #marg h2{
     font-size: 5.2em;
-    /* padding-top: 1em; */
+    padding-top: 1.02em;
+    text-align: center;
+    margin-bottom: .6em
+}
+#about-p{
+    text-align: justify;
+    font-size: 1.258em;
+    text-shadow: 1px 2px rgba(0,0,0,.2);
+    background-color: rgba(0,0,70,.24);
+    text-align: justify;
 }
 #marg p{
-    /* margin-top: 210px; */
-    font-size: 1.4em;
-    padding: 0px 5.1em;
+    width: 27em;
+    margin: 10px auto;
+    line-height: 35px;
 }
 #marg img{
     width: 100%;
-    /* position: relative; */
-}
-#marg h4{
-    margin-top: auto;
-    opacity: .79;
-    font-size: 1.6em;
 }
 
 
