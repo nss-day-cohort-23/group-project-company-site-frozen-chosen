@@ -118,19 +118,34 @@ a:hover {
 #logistics::after {
     display: block;
     position: relative;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-    margin-top: -250px;
+    background-image: linear-gradient(to bottom, rgba(325, 325, 325, 0) 0, #fff 100%);
+    margin-top: 75px;
     height: 250px;
     width: 100%;
     content: '';
+    font-size:1.35em;
   }
   #logistics p, #logistics h2{
       text-align: center;
       /*left: 10%;*/
       color: white;
       text-shadow: 1px 1.3px rgba(0,0,0,.2);
+      font-size: 1.35em,
   }
+  #marg h2{
+    font-size: 5.2em;
+    padding-top: 1.02em;
+    text-align: center;
+    margin-bottom: .6em
+}
 
+#logistics p{
+    width: 27em;
+    margin: 10px auto;
+    line-height: 35px;
+    font-size: 1.5em;
+    text-shadow: 2px 1.3px rgba(0,0,0,.2);
+}
 
 /* ----------------footer------------------ */
 footer{
@@ -140,7 +155,7 @@ footer{
 footer h4{
     margin-top: auto;
     opacity: .15;
-    font-size: 1.5em;
+    font-size: 1.35em;
 }
 
 
