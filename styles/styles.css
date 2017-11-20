@@ -2,6 +2,13 @@ body {
     margin: 0;
     padding-top: 72px;
 }
+p{
+    font-family: 'Open Sans', sans-serif; 
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Fira Sans Extra Condensed', sans-serif; 
+}
 
 /*-----------header navigation------------*/
 header{
